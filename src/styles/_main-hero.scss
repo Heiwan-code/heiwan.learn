@@ -1,0 +1,19 @@
+body {
+    background-color: aliceblue;
+    min-height: 100vh;
+}
+
+.main-hero {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    transition: all ease 0.3s;
+    &__text {
+        font-size: 82px;
+        max-height: 96px;
+        font-family: 'Consolas';
+    }
+    &__text-highlight {
+
+    }
+}

@@ -1,0 +1,573 @@
+{
+    "text-01": {
+        "keyword": "frustrating",
+        "hint": "Ugh... That's one ugly font.. </br></br>Let's change it by clicking on the current font-family's <em>property</em> <strong>value</strong> (Comic-Sans) and pick another one from the dropdown",
+        "codeGroups": {
+            ".highlight-text": [
+                {
+                    "slug": "text-01",
+                    "elementQ": ".highlight-text",
+                    "property":"font-family:",
+                    "prefix":"'" ,
+                    "desiredVal": [
+                        "Switzer","Format","Facade","Grotesk","BackOut"
+                    ],
+                    "startValue":"Comic-Sans",
+                    "suffix":"'",
+                    "suggestions": [
+                        {
+                            "value": "Comic-Sans",
+                            "label": "'Comic-Sans'"
+                        },
+                        {
+                            "value": "Switzer",
+                            "label": "'Switzer'"
+                        },
+                        {
+                            "value": "Format",
+                            "label": "'Format'"
+                        },
+                        {
+                            "value": "Facade",
+                            "label": "'Facade'"
+                        },
+                        {
+                            "value": "Grotesk",
+                            "label": "'Grotesk'"
+                        },
+                        {
+                            "value": "BackOut",
+                            "label": "'BackOut'"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "text-02": {
+        "keyword": "tedious",
+        "hint": "That doesn't look right! Try tweaking the font size value until it looks consistent with the primary font family",
+        "codeGroups": {
+            ".highlight-text": [
+                {
+                    "slug": "text-01",
+                    "elementQ": ".highlight-text",
+                    "property":"font-family:",
+                    "prefix":"'" ,
+                    "desiredVal": [
+                        "Switzer","Format","Facade","Grotesk","BackOut"
+                    ],
+                    "startValue":"Comic-Sans",
+                    "suffix":"'",
+                    "suggestions": [
+                        {
+                            "value": "Comic-Sans",
+                            "label": "'Comic-Sans'"
+                        },
+                        {
+                            "value": "Switzer",
+                            "label": "'Switzer'"
+                        },
+                        {
+                            "value": "Format",
+                            "label": "'Format'"
+                        },
+                        {
+                            "value": "Facade",
+                            "label": "'Facade'"
+                        },
+                        {
+                            "value": "Grotesk",
+                            "label": "'Grotesk'"
+                        },
+                        {
+                            "value": "BackOut",
+                            "label": "'BackOut'"
+                        }
+                    ]
+                },
+                {
+                    "slug": "text-02",
+                    "elementQ": ".highlight-text",
+                    "property":"font-size:",
+                    "prefix":"" ,
+                    "desiredVal":"82",
+                    "startValue":"122",
+                    "suffix":"px",
+                    "indicator": true
+                }
+            ]
+        }
+    },
+    "text-03": {
+        "keyword": "precise",
+        "hint": "Let's fix the gap between our highlited word and the main text!",
+        "codeGroups": {
+            ".highlight-text": [
+                {
+                    "slug": "text-01",
+                    "elementQ": ".highlight-text",
+                    "property":"font-family:",
+                    "prefix":"'" ,
+                    "desiredVal": [
+                        "Switzer","Format","Facade","Grotesk","BackOut"
+                    ],
+                    "startValue":"Comic-Sans",
+                    "suffix":"'",
+                    "suggestions": [
+                        {
+                            "value": "Comic-Sans",
+                            "label": "'Comic-Sans'"
+                        },
+                        {
+                            "value": "Switzer",
+                            "label": "'Switzer'"
+                        },
+                        {
+                            "value": "Format",
+                            "label": "'Format'"
+                        },
+                        {
+                            "value": "Facade",
+                            "label": "'Facade'"
+                        },
+                        {
+                            "value": "Grotesk",
+                            "label": "'Grotesk'"
+                        },
+                        {
+                            "value": "BackOut",
+                            "label": "'BackOut'"
+                        }
+                    ]
+                },
+                {
+                    "slug": "text-02",
+                    "elementQ": ".highlight-text",
+                    "property":"font-size:",
+                    "prefix":"" ,
+                    "desiredVal":"82",
+                    "startValue":"122",
+                    "suffix":"px",
+                    "indicator": true
+                },
+                {
+                    "slug": "text-03",
+                    "elementQ": ".highlight-text",
+                    "property":"margin-left:",
+                    "prefix":"" ,
+                    "desiredVal":"32",
+                    "startValue":"6",
+                    "suffix":"px",
+                    "indicator": true
+                }
+            ]
+        }
+    },
+    "box-01": {
+        "keyword": "easy",
+        "hint": "Let's say we want to add a cool animated graphics element above our 'i'. Change the value until the box fits inside the designated green area",
+        "targetStyles": {
+            "position": "absolute",
+            "top": "0px",
+            "left": "148px"
+        },
+        "codeGroups": {
+            ".heiwan-box":[
+                {
+                    "slug": "box-margin-l",
+                    "elementQ": ".heiwan-box",
+                    "property":"margin-left:",
+                    "prefix":"" ,
+                    "desiredVal":"148",
+                    "startValue":"0",
+                    "suffix":"px",
+                    "indicator": true
+                }
+            ]
+        }
+    },
+    "box-02": {
+        "keyword": "ummm",
+        "hint": "Wait no, we should use the 'transform:' property combined with translateX instead. ",
+        "targetStyles": {
+            "position": "absolute",
+            "top": "0px",
+            "left": "148px"
+        },
+        "codeGroups": {
+            ".heiwan-box":[
+                {
+                    "slug": "box-transform-x",
+                    "elementQ": ".heiwan-box",
+                    "property":"transform:",
+                    "prefix":"translateX(" ,
+                    "desiredVal":"148",
+                    "startValue":"0",
+                    "suffix":"px)",
+                    "clearPrev": true
+                }
+            ]
+        }
+    },
+    "box-03": {
+        "keyword": "overwhelming",
+        "hint": "Navigating programming can seem daunting initially, with its various paths, each tailored for specific purposes. Yet, starting out, it's essential not to be too tough on yourself. Remember this mantra: 'It's great as long as it works and I'm learning!'</br></br>While pixels suffice in many situations, 'rem' units better accommodate diverse screen sizes, being more responsive.",
+        "targetStyles": {
+            "position": "absolute",
+            "top": "0px",
+            "left": "148px"
+        },
+        "codeGroups": {
+            ".heiwan-box":[
+                {
+                    "slug": "box-transform-x",
+                    "elementQ": ".heiwan-box",
+                    "property":"transform:",
+                    "prefix":"" ,
+                    "desiredVal":"translateX(9.25rem)",
+                    "startValue":"translateX(0)",
+                    "suffix":"",
+                    "suggestions": [
+                        {
+                            "value": "translateX(148px)",
+                            "label": "translateX(148px)"
+                        },
+                        {
+                            "value": "translateX(925%)",
+                            "label": "translateX(925%)"
+                        },
+                        {
+                            "value": "translateX(9.25rem)",
+                            "label": "translateX(9.25rem)"
+                        }
+                    ],
+                    "clearPrev": true
+                }
+            ]
+        }
+    },
+    
+    "box-04": {
+        "keyword": "confusing",
+        "hint": "CSS, or <strong>Cascading</strong> Style Sheets, operates by overwriting styles, similar to giving a car a new paint job where the latest one replaces the previous.</br></br> When positioning an element on the y-axis, using 'transform' with translateY() cancels out the previous <s>'transform:' translateX()</s>.",
+        "targetStyles": {
+            "position": "absolute",
+            "top": "29px",
+            "left": "148px"
+        },
+        "codeGroups": {
+            ".heiwan-box":[
+                {
+                    "slug": "box-transform-x",
+                    "elementQ": ".heiwan-box",
+                    "property":"transform:",
+                    "prefix":"" ,
+                    "desiredVal":"translateX(9.25rem)",
+                    "startValue":"translateX(9.25rem)",
+                    "suffix":"",
+                    "suggestions": [
+                        {
+                            "value": "translateX(148px)",
+                            "label": "translateX(148px)"
+                        },
+                        {
+                            "value": "translateX(925%)",
+                            "label": "translateX(925%)"
+                        },
+                        {
+                            "value": "translateX(9.25rem)",
+                            "label": "translateX(9.25rem)"
+                        }
+                    ]
+                },
+                {
+                    "slug": "box-transform-y",
+                    "elementQ": ".heiwan-box",
+                    "property":"transform:",
+                    "prefix":"" ,
+                    "desiredVal":"translateY(1.8125rem)",
+                    "startValue":"translateY(0px)",
+                    "suffix":"",
+                    "cancels": "box-transform-x",
+                    "suggestions": [
+                        {
+                            "value": "translateY(29px)",
+                            "label": "translateY(29px)"
+                        },
+                        {
+                            "value": "translateY(183%)",
+                            "label": "translateY(183%)"
+                        },
+                        {
+                            "value": "translateY(1.8125rem)",
+                            "label": "translateY(1.8125rem)"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "box-05": {
+        "keyword": "savvy",
+        "hint": "Luckily for us, there is a way to combine both X and Y in one line.",
+        "targetStyles": {
+            "position": "absolute",
+            "top": "29px",
+            "left": "148px"
+        },
+        "codeGroups": {
+            ".heiwan-box":[
+                {
+                    "slug": "box-transform-xy",
+                    "elementQ": ".heiwan-box",
+                    "property":"transform:",
+                    "prefix":"" ,
+                    "desiredVal":"translate(9.25rem,1.8125rem)",
+                    "startValue":"translate(0px,0px)",
+                    "suffix":"",
+                    "cancels": "box-transform-y",
+                    "suggestions": [
+                        {
+                            "value": "translateX(9.25rem)",
+                            "label": "translateX(9.25rem)"
+                        },
+                        {
+                            "value": "translateY(1.8125rem)",
+                            "label": "translateY(1.8125rem)"
+                        },
+                        {
+                            "value": "translate(9.25rem,1.8125rem)",
+                            "label": "translate(9.25rem,1.8125rem)"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "box-06": {
+        "keyword": "fun?",
+        "hint": "Let's give our box an animation. Behind the scenes I've written code for the animation, so you just have to plug it in the property 'animation', it takes in many parameters for it's value. In this example we're using name, duration, animation timing and how many times it should repeat. Google CSS animation, if you're curious about the other parameters",
+        "targetStyles": {
+            "position": "absolute",
+            "top": "29px",
+            "left": "148px"
+        },
+        "codeGroups": {
+            ".heiwan-box":[
+                {
+                    "slug": "box-transform-xy",
+                    "elementQ": ".heiwan-box",
+                    "property":"transform:",
+                    "prefix":"" ,
+                    "desiredVal":"translate(9.25rem,1.8125rem)",
+                    "startValue":"translate(0px,0px)",
+                    "suffix":"",
+                    "cancels": "box-transform-y",
+                    "suggestions": [
+                        {
+                            "value": "translateX(9.25rem)",
+                            "label": "translateX(9.25rem)"
+                        },
+                        {
+                            "value": "translateY(1.8125rem)",
+                            "label": "translateY(1.8125rem)"
+                        },
+                        {
+                            "value": "translate(9.25rem,1.8125rem)",
+                            "label": "translate(9.25rem,1.8125rem)"
+                        }
+                    ]
+                },
+                {
+                    "slug": "box-animtaion",
+                    "elementQ": ".heiwan-box",
+                    "property":"animation:",
+                    "prefix":"" ,
+                    "desiredVal":"rotateBox 3s ease-in-out infinite",
+                    "startValue":"",
+                    "suffix":"",
+                    "cancels": "box-transform-xy",
+                    "suggestions": [
+                        {
+                            "value": "rotateBox 3s ease-in-out infinite",
+                            "label": "rotateBox 3s ease-in-out infinite"
+                        },
+                        {
+                            "value": "rotateBox 6s ease-in-out 2",
+                            "label": "rotateBox 6s ease-in-out 2"
+                        },
+                        {
+                            "value": "rotateBox 0.3s linear infinite",
+                            "label": "rotateBox 0.3s linear infinite"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "box-07": {
+        "keyword": "trial & error",
+        "hint": "Uh oh... We've done it again! The animation uses 'transform: rotateZ()' under the hood, so that overwrites our translate() property. There is a way to combine them, but in this case taking an alternative way to position the box would be better. Let's use left: and top: and px",
+        "targetStyles": {
+            "position": "absolute",
+            "top": "29px",
+            "left": "148px"
+        },
+        "codeGroups": {
+            ".heiwan-box":[
+                {
+                    "slug": "box-left",
+                    "elementQ": ".heiwan-box",
+                    "property":"left:",
+                    "prefix":"" ,
+                    "desiredVal":"148",
+                    "startValue":"0",
+                    "suffix":"px"
+                    },
+                {
+                    "slug": "box-top",
+                    "elementQ": ".heiwan-box",
+                    "property":"top:",
+                    "prefix":"" ,
+                    "desiredVal":"29",
+                    "startValue":"0",
+                    "suffix":"px"
+                },
+                {
+                    "slug": "box-animtaion",
+                    "elementQ": ".heiwan-box",
+                    "property":"animation:",
+                    "prefix":"" ,
+                    "desiredVal":"rotate 3s ease-in-out infinite",
+                    "startValue":"",
+                    "suffix":"",
+                    "suggestions": [
+                        {
+                            "value": "rotateBox 3s ease-in-out infinite",
+                            "label": "rotateBox 3s ease-in-out infinite"
+                        },
+                        {
+                            "value": "rotateBox 6s ease-in-out 2",
+                            "label": "rotateBox 6s ease-in-out 2"
+                        },
+                        {
+                            "value": "rotateBox 0.3s linear infinite",
+                            "label": "rotateBox 0.3s linear infinite"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "box-08": {
+        "keyword": "trial & error",
+        "hint": "Uh oh... We've done it again! The animation uses 'transform: rotateZ()' under the hood, so that overwrites our translate() property. There is a way to combine them, but in this case taking an alternative way to position the box would be better. Let's use left: and top: and px",
+        "targetStyles": {
+            "position": "absolute",
+            "top": "29px",
+            "left": "148px"
+        },
+        "codeGroups": {
+            ".heiwan-box":[
+                {
+                    "slug": "box-left",
+                    "elementQ": ".heiwan-box",
+                    "property":"left:",
+                    "prefix":"" ,
+                    "desiredVal":"148",
+                    "startValue":"0",
+                    "suffix":"px"
+                    },
+                {
+                    "slug": "box-top",
+                    "elementQ": ".heiwan-box",
+                    "property":"top:",
+                    "prefix":"" ,
+                    "desiredVal":"29",
+                    "startValue":"0",
+                    "suffix":"px"
+                },
+                {
+                    "slug": "box-animtaion",
+                    "elementQ": ".heiwan-box",
+                    "property":"animation:",
+                    "prefix":"" ,
+                    "desiredVal":"rotate 3s ease-in-out infinite",
+                    "startValue":"",
+                    "suffix":"",
+                    "suggestions": [
+                        {
+                            "value": "rotateBox 3s ease-in-out infinite",
+                            "label": "rotateBox 3s ease-in-out infinite"
+                        },
+                        {
+                            "value": "rotateBox 6s ease-in-out 2",
+                            "label": "rotateBox 6s ease-in-out 2"
+                        },
+                        {
+                            "value": "rotateBox 0.3s linear infinite",
+                            "label": "rotateBox 0.3s linear infinite"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "box-09": {
+        "keyword": "simple (sometimes)",
+        "hint": "Perfect! Next, let's center the text both horizontally and vertically. I'll highlight the area that's available for us right now. We should make it fit the users screen at all times. ",
+        "areaStyles": {
+            "border": "1px solid rgb(49, 216, 63)",
+            "background-color": "rgba(157, 218, 157, 0.3)"
+        },
+        "targetStyles": {
+            "display": "none"
+        },
+        "codeGroups": {
+            ".heiwan-box":[
+                {
+                    "slug": "box-left",
+                    "elementQ": ".heiwan-box",
+                    "property":"left:",
+                    "prefix":"" ,
+                    "desiredVal":"148",
+                    "startValue":"0",
+                    "suffix":"px"
+                    },
+                {
+                    "slug": "box-top",
+                    "elementQ": ".heiwan-box",
+                    "property":"top:",
+                    "prefix":"" ,
+                    "desiredVal":"29",
+                    "startValue":"0",
+                    "suffix":"px"
+                },
+                {
+                    "slug": "box-animtaion",
+                    "elementQ": ".heiwan-box",
+                    "property":"animation:",
+                    "prefix":"" ,
+                    "desiredVal":"rotate 3s ease-in-out infinite",
+                    "startValue":"",
+                    "suffix":"",
+                    "suggestions": [
+                        {
+                            "value": "rotateBox 3s ease-in-out infinite",
+                            "label": "rotateBox 3s ease-in-out infinite"
+                        },
+                        {
+                            "value": "rotateBox 6s ease-in-out 2",
+                            "label": "rotateBox 6s ease-in-out 2"
+                        },
+                        {
+                            "value": "rotateBox 0.3s linear infinite",
+                            "label": "rotateBox 0.3s linear infinite"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.stage {
+    &--box {
+        height: 100%;
+        width: 100%;
+        // background-color: aliceblue;
+        // border-top: 1px solid rgb(65, 133, 176);
+        position: absolute;
+        .heiwan-box, .target-box {
+            height: 1rem;
+            // margin: 5px;
+            width: 1rem;
+            transition: all 0.55s ease;
+        }
+        .heiwan-box {
+            &.done {
+                background-color: rgb(157, 218, 157);
+            }
+            background-color: black;
+            position: absolute;
+        }
+        .target-box {
+            border: 1px solid rgb(49, 216, 63);
+            background-color: rgba($color: rgb(157, 218, 157), $alpha: 0.3);
+        }
+    }
+}
+
+@keyframes rotateBox {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+    
+}

@@ -1,0 +1,11 @@
+.highlight-text {
+    font-family: 'Comic-Sans', Times, serif;
+    font-size: 122px;
+    line-height: 96px;
+    margin-left: 6px;
+    display: inline-block;
+    transition: all 0.5s ease;
+    &.done {
+        color: rgb(157, 218, 157);
+    }
+}
